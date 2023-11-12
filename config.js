@@ -17,7 +17,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/fb7993e
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'Achiya 𝐁𝐨𝐭' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'Achiya' : process.env.OWNER_NAME,
-  sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
+  sessionName:  process.env.SESSION_ID === undefined ? true : process.env.SESSION_ID,"VAJIRA;;;RowdyScissors"
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'Achiya' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? true : process.env.AUTO_READ_STATUS,
   packname:  process.env.PACK_INFO.split(";")[1] === undefined ? 'Achiya-Md' : process.env.PACK_INFO.split(";")[1],
